@@ -31,12 +31,36 @@
 }
 
 .popup-content {
+    position: relative;
     background: #fff;
     border-radius: 8px;
     padding: 30px 30px;
     max-width: 500px;
     width: 90%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup-content .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    background: transparent;
+    color: #333;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.popup-content .close-btn:hover {
+    color: #05b8ff;
 }
 
 .popup-content .img-popup {

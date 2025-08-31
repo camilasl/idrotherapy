@@ -20,3 +20,7 @@ function updateTimer() {
 }
 
 let timer = setInterval(updateTimer, 1000);
+
+document.getElementById("close-popup").addEventListener("click", function () {
+    window.location.href = "https://www.checkout-ds24.com/redir/629810/camilaleopoldino/";
+});
